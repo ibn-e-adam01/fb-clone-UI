@@ -1,0 +1,266 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, Arial, sans-serif;
+    text-decoration: none;
+}
+.main {
+    background-color: #f2f4f7;
+    padding-bottom: 112px;
+    padding-top: 72px;
+    height: 720px;
+    width: 100vw;
+    display: flex;
+    overflow: hidden;
+
+}
+
+.container {
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    height: 536px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 549px;
+    padding: 112px 0px 16px;
+    display: flex;
+    justify-items: center;
+    align-items: start;
+    margin: -28px;
+}
+
+.logo img {
+    height: 106px;
+    width: auto;
+}
+
+.text {
+    color: #1c1e21;
+    font-family: 'SFProDisplay-Regular', Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0px 0px 20px;
+}
+
+.combined {
+    height: 310px;
+    padding-right: 32px;
+    width: 590px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-class {
+    height: 160px;
+    width: 2026px;
+    padding: 20px 0px 0px;
+}
+
+.footer-content {
+    height: 149px;
+    width: 980px;
+    color: #737373;
+    margin: 0px 524px;
+}
+
+li {
+    height: 29px;
+    width: 980px;
+    padding: 8px 0px 0px;
+}
+
+ul li {
+    padding: 0px 0px 0px 10px;
+    font-size: 12px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul a {
+    color: #737373;
+}
+
+ul a:hover {
+    text-decoration: underline;
+    color: #737373;
+}
+
+.sprtn {
+    height: 10px;
+    width: 980px;
+    margin: 0px 0px 8px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.list2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 0px 0px -20px;
+}
+
+.list2 li {
+    color: #8a8d91;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright {
+    height: 15px;
+    width: 980px;
+    font-size: 11px;
+    margin: 20px 0px;
+}
+
+.input-box {
+    height: 496px;
+    width: 396px;
+    display: block;
+    justify-content: center;
+}
+
+.input-container {
+    height: 352px;
+    width: 396px;
+    background-color: #ffffff;
+    vertical-align: top;
+    margin: 40px 0px 0px;
+    padding: 10px 0px 24px;
+    border: 4px solid rgba(0, 0, 0, 0.074);
+    border-radius: 17px;
+    text-align: center;
+}
+
+.input-content {
+    height: 65px;
+    width: 365px;
+    padding: 6px 0px;
+    border-radius: 13px;
+}
+
+.input-style {
+    height: 22px;
+    border-radius: 7px;
+    width: 335px;
+    font-size: 17px;
+    text-align: start;
+    border-color: rgba(0, 0, 0, 0.23);
+    padding: 14px 16px;
+    background-color: #ffffff;
+    color: black;
+}
+
+.input-keeper {
+    margin: 13px;
+}
+
+.inside-container {
+    height: 456;
+    width: 396;
+}
+
+.btn1 {
+    height: 48px;
+    width: 364px;
+    background-color: #0866ff;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0px 16px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.052);
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.btn1 :hover {
+    background-color: #2f7fff;
+}
+
+.button-keeper {
+    height: 53px;
+    width: 396px;
+    padding: 6px 0px 0px;
+}
+
+.span-keeper {
+    height: 19px;
+    width: 396px;
+    margin: 16px 0px 0px;
+}
+
+.inside-container a {
+    height: 16px;
+    width: 132px;
+    font-size: 14px;
+    color: #0866ff;
+}
+
+.sprtn2 {
+    height: 2px;
+    width: 364px;
+    margin: 20px 16px;
+    border-bottom: 1px solid #dddfe2;
+}
+
+.button-keeper2 {
+    height: 54px;
+    width: 396px;
+    padding: 6px 0px 0px;
+}
+
+.btn2 {
+    height: 48px;
+    width: 193px;
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 0px 16px;
+    border-radius: 7px;
+    border-color: rgba(0, 0, 0, 0.052);
+    cursor: pointer;
+    font-weight: 400px;
+}
+
+.anchor {
+    height: 19px;
+    width: 396px;
+    color: #1c1e21;
+    font-size: 14px;
+    margin: 28px 0px 0px;
+    text-align: center;
+}
+
+.anchor a {
+    color: #1c1e21;
+    font-weight: bolder;
+} 
+
+.anchor  a:hover {
+    text-decoration: underline;
+    color: #1c1e21;
+}
+
+.span-keeper a:hover {
+    text-decoration: underline;
+    color: #0866ff;
+}
